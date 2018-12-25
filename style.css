@@ -1,22 +1,24 @@
-.bigbanner {
-	background-image: url("img/big_banner.png");
+* {margin: 0; padding: 0;}
+
+.navbar-default {
+      background-color:transparent !important;
+      border-color:transparent;
+      background-image:none;
+      box-shadow:none;
+ }
+
+.jumbotron {
+	background-image: url("./img/big_banner.png");
+	height: 975px;
 }
 
+.nav {
+	padding-top: 25px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
 
 @media (min-width: 768px) and (max-width: 825px) {
     .navbar-collapse.collapse {
