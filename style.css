@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 * {margin: 0; padding: 0;}
+
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
 
 .navbar-default {
       background-color:transparent !important;
@@ -7,20 +19,31 @@
       box-shadow:none;
  }
 
+.navbar-toggle {
+  margin-top: 20px;
+}
+
 .jumbotron {
 	background-image: url("./img/big_banner.png");
-	height: 975px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav {
-	padding-top: 25px;
+	padding-top: 15px;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #777;
+.nav>li{
+  display: inline;
 }
 
-@media (min-width: 768px) and (max-width: 825px) {
+.navbar-brand {
+  padding-top: 25px;
+  padding-left: 75px;
+}
+
+@media only screen and (max-width: 926px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
@@ -32,5 +55,12 @@
     }
     .navbar-header {
         float:none;
+    }
+    .navbar-brand {
+      padding-left: 5px;
+    }
+    .navbar-brand>img {
+    height: auto;
+    max-width: 80%;
     }
 }
