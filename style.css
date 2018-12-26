@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 * {margin: 0; padding: 0;}
 
-body, html{
+/* body, html{
   height: 100%;
   margin: 0;
-}
+} */
 
 .navbar-default .navbar-nav > li > a {
     font-family: 'Montserrat', sans-serif;
@@ -25,9 +27,10 @@ body, html{
 
 .jumbotron {
 	background-image: url("./img/big_banner.png");
-  height: 100%;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repear: no-repeat;
+  height: 100vh;
+  width: 100%;
 }
 
 .nav {
@@ -42,6 +45,18 @@ body, html{
   padding-top: 25px;
   padding-left: 75px;
 }
+
+.the_future_of_digital {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+.we_provide{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  font-weight: 900;
+}
+
 
 @media only screen and (max-width: 926px) {
     .navbar-collapse.collapse {
@@ -60,7 +75,14 @@ body, html{
       padding-left: 5px;
     }
     .navbar-brand>img {
+    padding-left: 5px;
     height: auto;
-    max-width: 80%;
+    max-width: 100%;
     }
+}
+@media only screen and (max-width: 520px)
+{
+  .navbar-brand>img {
+    max-width: 70%;
+  }
 }
