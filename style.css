@@ -7,7 +7,7 @@
 html, body {
     max-width: 100%;
     height: 100%;
-    overflow-x: initial;
+    overflow-x: hidden;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -51,7 +51,7 @@ html, body {
 }
 
 #banner-info{
-  margin-top: 180px;
+  margin-top: 120px;
   padding-left: 120px;
   color: #fff;
 }
@@ -81,15 +81,21 @@ html, body {
 
 }
 
-#second-banner{
-  position: absolute;
-  height: 500px;
-  top: 800px;
+.col-md-4 .dont_see{
+  background-image: url(./img/second-banner-1.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: white;
+  height: 480px;
 }
 
-/* #second-banner-1{
-  background-color: #000;
-} */
+
+h1, h2, h3, h4 {
+  text-transform: capitalize;
+}
+
+
+
 
 @media only screen and (max-width: 1120px)
 {
