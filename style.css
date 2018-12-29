@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 * {margin: 0; padding: 0;}
 
@@ -73,18 +74,26 @@ html, body {
 }
 
 .btn-default {
-    color: #176305;
+    color: #1f7b0a;
+    border-color: #fff;
     font-size: 14px;
     font-weight: 600;
     background-image: linear-gradient(to bottom,#fff 0,#ffffff 100%);
 }
 
 .btn {
+  font-family: 'Montserrat', sans-serif;
   margin-top: 20px;
   border-radius: 15px;
   padding: 10px 30px;
 
 }
+
+.btn:hover{
+  border-color: #fff;
+  background-color: #fff;
+}
+
 
 #dont_see{
   background-image: url(./img/second-banner-1.png);
@@ -93,6 +102,7 @@ html, body {
   padding-top: 110px;
   padding-left: 38px;
   padding-right: 38px;
+  font-family: 'Poppins', sans-serif;
   color: white;
   height: 100vh;
   max-height: 480px;
@@ -100,7 +110,9 @@ html, body {
 }
 
 #second-banner-icons{
-  background-color: #fff000;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  background-color: #fff;
   height: 100vh;
   max-height: 480px;
 }
@@ -115,7 +127,7 @@ h1, h2, h3, h4 {
 
 
 
-@media only screen and (max-width: 1120px)
+@media only screen and (max-width: 1200px)
 {
   #banner-info{
     padding-left: 0;
