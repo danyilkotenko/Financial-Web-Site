@@ -134,6 +134,15 @@ h1, h2, h3, h4 {
   }
 }
 
+@media only screen and (max-width: 991px)
+{
+  #second-banner-icons > .row > #beaker, #second-banner-icons > .row > #tools{
+    padding-top: 20px;
+  }
+}
+
+
+
 @media only screen and (max-width: 926px) {
     .navbar-collapse.collapse {
         display: none !important;
