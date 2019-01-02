@@ -126,6 +126,44 @@ html, body {
 }
 
 
+#sixth-banner {
+  margin-top: 100px;
+  height: 1050px;
+}
+
+
+#sixth-banner > .container > .row > .col-md-12 > h4{
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#sixth-banner > .container > .row > .col-md-12 > p{
+  padding-top: 10px;
+  font-family: 'Muli', sans-serif;
+}
+
+#sixth-banner > .container > .row > .col-md-12 > .row > .col-md-4 > #first-text > h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+#sixth-banner > .container > .row > .col-md-12 > .row > .col-md-4 > #first-text > p {
+  font-family: 'Muli', sans-serif;
+}
+
+#sixth-banner > .container > .row > .col-md-12 > .row > .col-md-4 > #first-text {
+  /* position: absolute; */
+  background-color: #fff;
+  border-right: 1px solid #f5f5f5;
+  border-left: 1px solid #f5f5f5;
+  height: 160px;
+  padding-left: 10px;
+  padding: 10px;
+  /* top: 100px; */
+  /* margin-left: 0 auto; */
+}
 
 
 .nav {
