@@ -128,7 +128,7 @@ html, body {
 
 #sixth-banner {
   margin-top: 100px;
-  height: 1050px;
+  text-overflow: ellipsis;
 }
 
 
@@ -240,7 +240,7 @@ h1, h2, h3, h4 {
 
 footer {
   background-color: #313131;
-  height: 430px;
+  margin-top: 200px;
 }
 
 footer > .container > .row > #recent-news {
@@ -263,38 +263,108 @@ footer > .container > .row > .col-md-3 > ul{
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
-  list-style-type: none; 
   color: #706767;
   font-family: 'Muli', sans-serif;
   font-size: 14px;
   font-weight: bolder;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
-footer > .container > .row > .col-md-3 > input{
-  position: relative;
-  border-radius: 0;
-  padding-left: 15px;
+footer > .container > .row > .col-md-3 > .form-inline > .form-group > input{
+  border-radius: 0px;
   font-family: 'Muli', sans-serif;
+  height: 33px;
 }
 
 footer > .container > .row > .col-md-3 > ul>li{
   padding-bottom: 15px;
 }
 
-footer > .container > .row > .col-md-3 > button{
-  position: absolute;
-  padding: 6px 12px;
-  left: 60px;
-  bottom: 40px;
+footer > .container > .row > .col-md-3 > .form-inline > button{
+  margin-top: 0px;
   border-radius: 0px;
+  height: 33px;
+  width: 33px;
+  padding: initial;
+ }
+
+.custom-fa {
   display: inline;
-  float: right;
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #363636;
+  color: #474646;
+  margin: 5px 2px;
 }
 
 
+.fa-facebook {
+  color: #777777;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  color: #777777;
+}
+
+.fa-google {
+  color: #777777;
+}
+
+.fa-linkedin {
+  color: #777777;
+}
+
+.fa-youtube {
+  color: #777777;
+}
+
+.fa-instagram {
+  color: #777777;
+}
+
+.fa-envelope-o {
+  color: #6f6d6d;
+}
+
+.fa-phone {
+  color: #6f6d6d;
+}
+
+.fa-map-marker {
+  color: #6f6d6d;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #534e4e;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.footer-copyright {
+  background-color: #2a2a2a;
+  height: 65px;
+}
 
 
+.footer-copyright > .container > .row > .col-md-6 > #bottom-nav {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    padding-top: 25px;
+    color: #706767;
+}
+
+.footer-copyright > .container > .row > .col-md-6 > #bottom-nav > li{
+    padding-left: 25px;
+}
 
 
 @media only screen and (max-width: 1200px)
