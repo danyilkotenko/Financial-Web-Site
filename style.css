@@ -68,8 +68,6 @@ html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
   background-color: #fff;
-  height: 100vh;
-  max-height: 480px;
 }
 
 
@@ -79,7 +77,7 @@ html, body {
   background-position: bottom right;
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
-  font-weight: 900;
+  font-weight: 900 ;
 }
 
 #third-banner > containet > row > .col-md-12 > p{
@@ -111,7 +109,6 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
-  height: 600px;
 }
 
 
@@ -127,42 +124,21 @@ html, body {
 
 
 #sixth-banner {
-  margin-top: 100px;
+  margin-top: 50px;
   text-overflow: ellipsis;
 }
 
 
-#sixth-banner > .container > .row > .col-md-12 > h4{
-  font-weight: 900;
-  font-family: 'Montserrat', sans-serif;
-}
-
-
-#sixth-banner > .container > .row > .col-md-12 > p{
-  padding-top: 10px;
-  font-family: 'Muli', sans-serif;
-}
-
-#sixth-banner > .container > .row > .col-md-12 > .row > .col-md-4 > #first-text > h4 {
-  font-family: 'Montserrat', sans-serif;
+#sixth-banner > .container > #text-under-images > .col-md-4 > h4{
+  font-weight: 900 !important;
   font-size: 16px;
-  font-weight: 900;
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
-#sixth-banner > .container > .row > .col-md-12 > .row > .col-md-4 > #first-text > p {
+#sixth-banner > .container > #text-under-images > .col-md-4> p{
   font-family: 'Muli', sans-serif;
-}
-
-#sixth-banner > .container > .row > .col-md-12 > .row > .col-md-4 > #first-text {
-  position: absolute;
   background-color: #fff;
-  border-right: 1px solid #b5b5b5;
-  border-left: 1px solid #b5b5b5;
-  padding-left: 20px;
-  padding-right: 5px;
-  left: 50%;
-  margin-left: -150px;
-  top: 120px;
 }
 
 
@@ -380,13 +356,14 @@ hr {
     padding-top: 20px;
   }
 
-  #sixth-banner {
-    margin-top: 250px;
+ /* #sixth-banner > .container > .row > .col-md-12 > .row > .col-md-4 > #first-text {
+  position: static;
+  }*/
+
+  .footer-copyright .container .row .col-md-6 ul{
+    display: none;
   }
 
-  #fifth-banner > .container > .row > .col-md-12 > .row > .col-md-4 {
-    padding-left: 0;
-  }
 }
 
 
@@ -434,7 +411,6 @@ hr {
   }
 
   #third-banner {
-    height: 300px;
     background-position: bottom bottom;
   }
 }
@@ -442,6 +418,15 @@ hr {
 
 @media only screen and (max-width: 520px)
 {
+  #very-big-banner #banner-info .col-md-12 .the_future_of_digital {
+    font-size: 20px;
+  }
+  #very-big-banner #banner-info .col-md-12 .we_provide {
+    font-size: 45px;
+  }
+  #second-banner-jumbotron .container .row #dont_see {
+    padding-top: 50px;
+  }
   .navbar-brand>img {
     max-width: 70%;
   }
@@ -451,10 +436,21 @@ hr {
   .banner-info-lorem {
     display: none;
   }
+
+  #second-banner-icons #row1{
+    padding-top: 50px !important;
+  }
+
+  #second-banner-icons #row2{
+    padding-top: -10px;
+    padding-bottom: 30px !important;
+  }
+
   #fourth-banner > .container > .row > .col-md-12 > #fourth-banner-h1{
     padding-top: 10px;
   }
 }
+
 
 
 
@@ -465,3 +461,14 @@ hr {
     margin-right: auto;
   }
 }
+
+@media only screen and (max-width: 350px)
+{
+  #very-big-banner #banner-info .col-md-12 .the_future_of_digital {
+    font-size: 15px;
+  }
+  #very-big-banner #banner-info .col-md-12 .we_provide {
+    font-size: 35px;
+  }
+}
+
